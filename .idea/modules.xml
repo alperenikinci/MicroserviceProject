@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway-microservice/MicroServiceProject1.api-gateway-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway-microservice/MicroServiceProject1.api-gateway-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-microservice/MicroServiceProject1.auth-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-microservice/MicroServiceProject1.auth-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server-git/MicroServiceProject1.config-server-git.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server-git/MicroServiceProject1.config-server-git.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/MicroServiceProject1.config-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/MicroServiceProject1.config-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/elastic-service/MicroServiceProject1.elastic-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/elastic-service/MicroServiceProject1.elastic-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-microservice/MicroServiceProject1.product-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-microservice/MicroServiceProject1.product-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sales-microservice/MicroServiceProject1.sales-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sales-microservice/MicroServiceProject1.sales-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userprofile-microservice/MicroServiceProject1.userprofile-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/userprofile-microservice/MicroServiceProject1.userprofile-microservice.main.iml" />
+    </modules>
+  </component>
+</project>

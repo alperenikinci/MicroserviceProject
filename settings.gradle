@@ -1,0 +1,10 @@
+rootProject.name = 'MicroServiceProject1'
+include 'auth-microservice'
+include 'userprofile-microservice'
+include 'product-microservice'
+include 'sales-microservice'
+include 'config-server'
+include 'config-server-git'
+include 'api-gateway-microservice'
+include 'elastic-service'
+

@@ -1,0 +1,25 @@
+type UserProfile{
+    id: ID
+    userId: String
+    authId: Int
+    username: String
+    profileImage: String
+}
+
+input UserProfileInput{
+    authId: Int!
+    username: String!
+    profileImage: String!
+}
+
+
+type Query{
+    findAll: [UserProfile]
+    findByUsername(username: String!): UserProfile
+}
+
+type Mutation{
+    createUserProfile(userInput: UserProfileInput!): Boolean
+
+
+}

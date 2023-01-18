@@ -1,0 +1,32 @@
+server:
+  port: ${AUTH_PORT}
+# Sistem ortam değişkenlerini düzenleyinden alındı.
+# Bu düzenlemelerin aktif olması için IDE yeniden başlatılmalıdır.
+spring:
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9411
+    service:
+      name: sales-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/DBauthmicroservice
+    #url: jdbc:postgresql://localhost:9999/DbAuth //docker için
+    username: ${AUTH_DB_USERNAME}
+    password: ${AUTH_DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+myapplication:
+  auth:
+    ip: localhost
+    port: ${AUTH_PORT}
+  user:
+    ip: localhost
+    port: 9093
+    feignUrl: http://localhost:9093/v1/dev/userprofile
+
+buuygulama:
+  birdeger: "yml'dan gelen bir parametre"
